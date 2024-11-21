@@ -23,6 +23,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
+      <!--
         <a
           v-if="email"
           :href="`mailto:${email}`"
@@ -84,7 +85,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
             class="w-6 h-6"
           />
         </a>
-
+        -->
         <a
           v-if="github"
           :href="github"
